@@ -26,7 +26,7 @@ Build a numeric library for matrix and vector algebra (similar to [PolyMath](htt
 
 ## PolyMath examples
 
-More PolyMath examples, have more integration with Roassal and/or GToolkit
+More PolyMath examples, have more integration with [Roassal](http://agilevisualization.com/) and/or [GToolkit](https://github.com/feenkcom/gtoolkit).
 
 ## Support for Vega visualization engine
 
@@ -38,7 +38,7 @@ PolyMath has [a simple ODE-solver](https://github.com/PolyMathOrg/PolyMath/tree/
 
 ## Rule-based integration
 
-Implement rule-based integration like [the one in Rubi](https://rulebasedintegration.org/).
+Implement rule-based integration such as [Rubi](https://rulebasedintegration.org/).
 
 ## Computational algebra
 
