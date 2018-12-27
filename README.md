@@ -5,6 +5,7 @@ This is the list of projects related to mathematics, numeric computation, statis
 ## Contents
 - [Native vector-matrix algebra](#native-vector-matrix-algebra)
 - [DataFrame](#dataframe)
+- [Keras-style API on top of TensorFlow](#keras-style-api-on-top-of-tensorflow)
 
 ## Native vector-matrix algebra
 
@@ -13,3 +14,7 @@ Build a numeric library for matrix and vector algebra (similar to [PolyMath](htt
 ## DataFrame
 
 [PolyMath DataFrame](https://github.com/PolyMathOrg/DataFrame) is a Smalltalk library similar to [pandas](https://pandas.pydata.org/) in Python or [data.frames](https://www.rdocumentation.org/packages/base/versions/3.5.1/topics/data.frame) in R. It implements data structures for processing and analysing tabular data which is an essential part of data science and machine learning workflow. DataFrame needs a lot of improvement, both fixing the existing features and adding new ones.
+
+## Keras-style API on top of TensorFlow
+
+[PolyMathOrg](https://github.com/PolyMathOrg/libtensorflow-pharo-bindings) provides bindings to use [TensorFlow](https://www.tensorflow.org/) inside [Pharo](https://pharo.org/). We need to design a high-level API similar to [Keras](https://keras.io/) that would be easy to work with and allow fast experimentation. There is an [existing bridge](https://github.com/ObjectProfile/KerasWrapper) that calls Keras functions from Python. We need to have similar API with Pharo TensorFlow as a backend.
