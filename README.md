@@ -34,7 +34,7 @@ Add support for [Vega visualization engine](https://vega.github.io/vega/).
 
 ## Improve ODE-solver
 
-PolyMath has [a simple ODE-solver](https://github.com/PolyMathOrg/PolyMath/tree/development/src/Math-ODE). We would like to have more elaborate ways of solving ODE like [the ones provided in Julia](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.151/).
+PolyMath has [a simple ODE-solver](https://github.com/PolyMathOrg/PolyMath/tree/development/src/Math-ODE). We would like to have more elaborate ways of solving ODE like [the ones in Julia](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.151/).
 
 ## Rule-based integration
 
