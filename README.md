@@ -11,6 +11,7 @@ This is the list of projects related to mathematics, numeric computation, statis
 - [Improve ODE-solver](#improve-ode-solver)
 - [Rule-based integration](#rule-based-integration)
 - [Computational algebra](#computational-algebra)
+- [NLP library](#nlp-library)
 
 ## Native vector-matrix algebra
 
@@ -19,6 +20,10 @@ Build a numeric library for matrix and vector algebra (similar to [PolyMath](htt
 ## DataFrame
 
 [PolyMath DataFrame](https://github.com/PolyMathOrg/DataFrame) is a Smalltalk library similar to [pandas](https://pandas.pydata.org/) in Python or [data.frames](https://www.rdocumentation.org/packages/base/versions/3.5.1/topics/data.frame) in R. It implements data structures for processing and analysing tabular data which is an essential part of data science and machine learning workflow. DataFrame needs a lot of improvement, both fixing the existing features and adding new ones.
+
+## NLP library
+
+We need a natural language processing (NLP) library entirely written in Pharo with functionality similar to [NLTK](https://www.nltk.org/) or [Spacy](https://spacy.io/): [part of speech (PoS) tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging), [named entity recognition (NER)](https://en.wikipedia.org/wiki/Named-entity_recognition), [lemmatization](https://en.wikipedia.org/wiki/Lemmatisation), [stemming](https://en.wikipedia.org/wiki/Stemming), [word sense disambiguation](https://en.wikipedia.org/wiki/Word-sense_disambiguation), [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf), [n-grams](https://en.wikipedia.org/wiki/N-gram), various metrics etc. There is an [existing NLP library](https://github.com/mark-watson/nlp_smalltalk) that implements part of the mentioned features.
 
 ## Keras-style API on top of TensorFlow
 
