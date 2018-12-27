@@ -5,13 +5,14 @@ This is the list of projects related to mathematics, numeric computation, statis
 ## Contents
 - [Native vector-matrix algebra](#native-vector-matrix-algebra)
 - [DataFrame](#dataframe)
+- [NLP library](#nlp-library)
+- [Data visualizations](#data-visualizations)
 - [Keras-style API on top of TensorFlow](#keras-style-api-on-top-of-tensorflow)
 - [PolyMath examples](#polymath-examples)
 - [Support for Vega visualization engine](#support-for-vega-visualization-engine)
 - [Improve ODE-solver](#improve-ode-solver)
 - [Rule-based integration](#rule-based-integration)
 - [Computational algebra](#computational-algebra)
-- [NLP library](#nlp-library)
 
 ## Native vector-matrix algebra
 
@@ -24,6 +25,10 @@ Build a numeric library for matrix and vector algebra (similar to [PolyMath](htt
 ## NLP library
 
 We need a natural language processing (NLP) library entirely written in Pharo with functionality similar to [NLTK](https://www.nltk.org/) or [Spacy](https://spacy.io/): [part of speech (PoS) tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging), [named entity recognition (NER)](https://en.wikipedia.org/wiki/Named-entity_recognition), [lemmatization](https://en.wikipedia.org/wiki/Lemmatisation), [stemming](https://en.wikipedia.org/wiki/Stemming), [word sense disambiguation](https://en.wikipedia.org/wiki/Word-sense_disambiguation), [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf), [n-grams](https://en.wikipedia.org/wiki/N-gram), various metrics etc. There is an [existing NLP library](https://github.com/mark-watson/nlp_smalltalk) that implements part of the mentioned features.
+
+## Data visualizations
+
+We need a simple and powerful data visualization (charting) library similar to [ggplot](https://ggplot2.tidyverse.org/) and based on [The Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl?ie=UTF8&qid=1477928463&sr=8-1&keywords=the+grammar+of+graphics&linkCode=sl1&tag=ggplot2-20&linkId=f0130e557161b83fbe97ba0e9175c431). Inspiration can also be taken from Python's [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) but they do not follow the Grammar (which is very preferable). The library must be entirely implemented in Pharo, elements of visualization must be objects that allow interaction and can be inspected. This can be done by using [Telescope's Geometry library](https://github.com/TelescopeSt/Geometry) as back-end. Existing libraries for data visualization in Pharo include [Roassal's charting functionalities](http://agilevisualization.com/AgileVisualization/Grapher/0203-Grapher.html) and [a bridge to Python's matplotlib](https://github.com/juliendelplanque/MatplotLibBridge), however none of them fully satisfies the conditions listed above.
 
 ## Keras-style API on top of TensorFlow
 
