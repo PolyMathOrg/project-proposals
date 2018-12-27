@@ -1,6 +1,6 @@
 # PolyMath Ideas List
 
-This is the list of projects related to mathematics, numeric computation, statistics, data science, or machine learning that we wish to see implemented and integrated with [PolyMath](https://github.com/PolyMathOrg/PolyMath). Some of these projects will be proposed for [Google Summer of Code 2019](https://developers.google.com/open-source/gsoc/timeline). If you have any ideas - feel free to add them to the list. If you are a student who wants to take on a project from this list and need assistance, please contact us on #polymath channel of [Pharo Discord](https://pharo.org/community) or writing a letter to [PolyMath mailing list](http://groups.google.com/group/polymath-project).
+This is the list of projects related to mathematics, numeric computation, statistics, data science, or machine learning that we wish to see implemented and integrated with [PolyMath](https://github.com/PolyMathOrg/PolyMath) or used together with it. Some of these projects will be proposed for [Google Summer of Code 2019](https://developers.google.com/open-source/gsoc/timeline). If you have any ideas - feel free to add them to the list. If you are a student who wants to take on a project from this list and need assistance, please contact us on #polymath channel of [Pharo Discord](https://pharo.org/community) or writing a letter to [PolyMath mailing list](http://groups.google.com/group/polymath-project).
 
 ## Contents
 - [Native vector-matrix algebra](#native-vector-matrix-algebra)
