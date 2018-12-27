@@ -6,6 +6,11 @@ This is the list of projects related to mathematics, numeric computation, statis
 - [Native vector-matrix algebra](#native-vector-matrix-algebra)
 - [DataFrame](#dataframe)
 - [Keras-style API on top of TensorFlow](#keras-style-api-on-top-of-tensorflow)
+- [PolyMath examples](#polymath-examples)
+- [Support for Vega visualization engine](#support-for-vega-visualization-engine)
+- [Improve ODE-solver](#improve-ode-solver)
+- [Rule-based integration](#rule-based-integration)
+- [Computational algebra](#computational-algebra)
 
 ## Native vector-matrix algebra
 
@@ -18,3 +23,23 @@ Build a numeric library for matrix and vector algebra (similar to [PolyMath](htt
 ## Keras-style API on top of TensorFlow
 
 [PolyMathOrg](https://github.com/PolyMathOrg/libtensorflow-pharo-bindings) provides bindings to use [TensorFlow](https://www.tensorflow.org/) inside [Pharo](https://pharo.org/). We need to design a high-level API similar to [Keras](https://keras.io/) that would be easy to work with and allow fast experimentation. There is an [existing bridge](https://github.com/ObjectProfile/KerasWrapper) that calls Keras functions from Python. We need to have similar API with [Pharo TensorFlow](https://github.com/PolyMathOrg/libtensorflow-pharo-bindings) as a backend.
+
+## PolyMath examples
+
+More PolyMath examples, have more integration with Roassal and/or GToolkit
+
+## Support for Vega visualization engine
+
+Add support for [Vega visualization engine](https://vega.github.io/vega/).
+
+## Improve ODE-solver
+
+PolyMath has [a simple ODE-solver](https://github.com/PolyMathOrg/PolyMath/tree/development/src/Math-ODE). We would like to have more elaborate ways of solving ODE like [the ones provided in Julia](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.151/).
+
+## Rule-based integration
+
+Implement rule-based integration like [the one in Rubi](https://rulebasedintegration.org/).
+
+## Computational algebra
+
+Add support for [GAP - Groups, Algorithms, Programming - a System for Computational Discrete Algebra computational algebra](https://www.gap-system.org/). There is an [existing implementation](https://github.com/len/Mathematics) in Cuis Smalltalk.
