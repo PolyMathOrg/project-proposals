@@ -4,6 +4,7 @@ This is the list of projects related to mathematics, numeric computation, statis
 
 ## Contents
 - [Native vector-matrix algebra](#native-vector-matrix-algebra)
+- [DataFrame](#dataframe)
 
 ## Native vector-matrix algebra
 
