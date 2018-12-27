@@ -1,2 +1,3 @@
-# project-proposals
-Project proposals and idea list for PolyMath community
+# PolyMath Project Ideas
+
+This is the list of projects related to mathematics, numeric computation, statistics, data science, or machine learning that we wish to see implemented and integrated with PolyMath. Some of these projects will be proposed for Google Summer of Code 2019. If you have any ideas - feel free to add them to the list. If you are a student who wants to take on a project from this list and need assistance, please contact us on #polymath channel of [Pharo Discord](https://pharo.org/community) or writing a letter to [PolyMath mailing list](http://groups.google.com/group/polymath-project).
